@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log History for {{ username }}</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <h1>Log History for {{ username }}</h1>
+    {% if log_entries %}
+        <ul>
+            {% for entry in log_entries %}
+                <li>{{ entry }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No log history available.</p>
+    {% endif %}
+</body>
+</html>
