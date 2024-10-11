@@ -1,0 +1,17 @@
+* {font-family:arial;box-sizing:border-box;background-color:#FFFFFF;}
+
+h1 {margin:20px;margin-top:30px;margin-bottom:30px;}
+
+input, select {border-radius:5px;border:1px solid #333333;height:30px;padding:5px;background-color:#FEFEFF;margin-right:10px;}
+
+button {border-radius:5px;border:1px solid #333333;height:30px;padding:5px;background-color:#BBBBFF;}
+
+form {border:2px solid #000033;border-radius:5px;padding:20px;margin:20px;background-color:#DDDDFF;margin-top:30px;}
+
+label {font-size:20px;margin-right:10px;background-color:#DDDDFF;}
+
+a {margin:20px;margin-bottom:10px;font-size:18px;color:#5555CC;background-color:#BBBBFF;border-radius:5px;border:1px solid #000044;padding:10px;position:relative;}
+
+p {margin:40px;}
+
+li {margin:20px;margin-left:40px;background-color:#CCCCEE;margin-right:80px;border-radius:5px;padding:10px;}
